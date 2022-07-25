@@ -26,7 +26,7 @@
 
 ## 시스템 구조
 
-![image](https://user-images.githubusercontent.com/68547545/175466102-d8fdcef3-06f1-4e40-a778-9b99bff05914.png)
+![image](https://user-images.githubusercontent.com/68547545/180674980-df11caa9-2c25-45ad-83c5-6fb1baf31fc1.png)
 
 
 ## API
