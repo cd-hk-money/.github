@@ -14,7 +14,7 @@
 
 ## 통신 개요도
 
-![image](https://user-images.githubusercontent.com/68547545/175465406-22f034a7-96c7-4c36-b420-e3a56cb516b6.png)
+![image](https://user-images.githubusercontent.com/68547545/180674980-df11caa9-2c25-45ad-83c5-6fb1baf31fc1.png)
 
 ```
 1. 각 instance를 실행하여 Eureka Server에 등록
@@ -24,9 +24,14 @@
 6. Service instance로부터 받은 response result 전달
 ```
 
-## 시스템 구조
+## 입출력 개요도
 
-![image](https://user-images.githubusercontent.com/68547545/180674980-df11caa9-2c25-45ad-83c5-6fb1baf31fc1.png)
+![image](https://user-images.githubusercontent.com/68547545/180675860-69be1201-5172-4e8e-b9ac-aed3361a0714.png)
+
+
+## 시스템 구조도
+
+![image](https://user-images.githubusercontent.com/68547545/180675827-23b9a76f-7b91-4885-bdbc-c96dcf40249e.png)
 
 
 ## API
