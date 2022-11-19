@@ -12,6 +12,27 @@
 
 <br><br>
 
+## 시스템 아키텍처 구성도
+
+![image](https://user-images.githubusercontent.com/68547545/202846933-89b6feab-d269-4571-b6c7-06cf374575ea.png)
+
+```
+
+시스템은 크게 두 가지 서비스 모듈로 나눌 수 있습니다. 
+
+1. **주식 데이터 모듈**(Python - FastAPI - RDBMS(MySQL)
+2. **회원 모듈**(Java - Spring - In meory DB(Redis) - NoSQL DB(MongoDB))
+
+문제 해결에 적합한 서비스 환경을 만들기 위해 모듈을 분리하였습니다.
+
+주식 데이터 모듈의 경우 매일 업데이트되는 주식 가격 데이터와, 재무제표를 통한 2차 데이터 산출하기에 적합한 statistic 라이브러리(pandas, matplotlib 등)가 존재했고, 자동화에 용이한 python 환경으로 설계하였습니다.
+
+회원 모듈은 회원 관리(회원 가입, 로그인/로그 아웃)와 관심 그룹, 관심종목 등록 기능과 같이 웹 클라이언트로부터 CRUD request를 받기에 적합한 Java-Spring 환경으로 설계하였습니다.
+
+```
+
+<br><br>
+
 ## 통신 개요도
 
 ![image](https://user-images.githubusercontent.com/68547545/180674980-df11caa9-2c25-45ad-83c5-6fb1baf31fc1.png)
